@@ -1,7 +1,7 @@
 CMakeFiles/tema2.dir/src/Library.cpp.o: \
-  /Users/diana/Documents/Facultate/AN\ 4/PAOO/Lab/tema2/src/Library.cpp \
-  /Users/diana/Documents/Facultate/AN\ 4/PAOO/Lab/tema2/src/Library.hpp \
-  /Users/diana/Documents/Facultate/AN\ 4/PAOO/Lab/tema2/src/Book.hpp \
+  /Users/diana/Documents/Facultate/AN\ 4/PAOO/Lab/paooProj/tema2/src/Library.cpp \
+  /Users/diana/Documents/Facultate/AN\ 4/PAOO/Lab/paooProj/tema2/src/Library.hpp \
+  /Users/diana/Documents/Facultate/AN\ 4/PAOO/Lab/paooProj/tema2/src/Book.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

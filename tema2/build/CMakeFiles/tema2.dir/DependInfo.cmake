@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/diana/Documents/Facultate/AN 4/PAOO/Lab/tema2/src/Book.cpp" "CMakeFiles/tema2.dir/src/Book.cpp.o" "gcc" "CMakeFiles/tema2.dir/src/Book.cpp.o.d"
-  "/Users/diana/Documents/Facultate/AN 4/PAOO/Lab/tema2/src/Library.cpp" "CMakeFiles/tema2.dir/src/Library.cpp.o" "gcc" "CMakeFiles/tema2.dir/src/Library.cpp.o.d"
-  "/Users/diana/Documents/Facultate/AN 4/PAOO/Lab/tema2/src/main.cpp" "CMakeFiles/tema2.dir/src/main.cpp.o" "gcc" "CMakeFiles/tema2.dir/src/main.cpp.o.d"
+  "/Users/diana/Documents/Facultate/AN 4/PAOO/Lab/paooProj/tema2/src/Book.cpp" "CMakeFiles/tema2.dir/src/Book.cpp.o" "gcc" "CMakeFiles/tema2.dir/src/Book.cpp.o.d"
+  "/Users/diana/Documents/Facultate/AN 4/PAOO/Lab/paooProj/tema2/src/Library.cpp" "CMakeFiles/tema2.dir/src/Library.cpp.o" "gcc" "CMakeFiles/tema2.dir/src/Library.cpp.o.d"
+  "/Users/diana/Documents/Facultate/AN 4/PAOO/Lab/paooProj/tema2/src/main.cpp" "CMakeFiles/tema2.dir/src/main.cpp.o" "gcc" "CMakeFiles/tema2.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

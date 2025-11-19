@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/Users/diana/Documents/Facultate/AN 4/PAOO/Lab/tema2/src"
+CXX_INCLUDES = -I"/Users/diana/Documents/Facultate/AN 4/PAOO/Lab/paooProj/tema2/src"
 
 CXX_FLAGSarm64 = -std=c++14 -arch arm64
 
