@@ -9,7 +9,6 @@ Library::~Library() {
     delete[] books;
 }
 
-// Item 12: Copiază toate părțile obiectului (deep copy)
 Library::Library(const Library& other)
     : books(new Book[other.capacity]), size(other.size), capacity(other.capacity) {
         for(std::size_t i = 0; i < size; i++){
@@ -37,6 +36,7 @@ Library& Library::operator=(const Library& other) {
     // Item 10: Return *this to allow chained assignments
     return *this;
 }
+
 
 void Library::addBook(const Book& book){
     if(size >= capacity){
