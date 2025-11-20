@@ -14,7 +14,8 @@ class Library{
         Library& operator=(const Library& other); // Copy assignment
         Library& operator=(Library&& other) noexcept; // Move assignment
         virtual ~Library();
-        
+
+        void transferBooksTo(Library& destination);
         void addBook(const Book& book);
         void removeBook(const std::string title);
         Book* findBook(const std::string title) const;

@@ -12,7 +12,10 @@ int main(){
     Book book6("Effective C++", "Scott Meyers", 1992, 320);
     Book book7("The C++ Programming Language", "Bjarne Stroustrup", 2013, 1366);
 
-    Library lib1(5);
+    //---------------------------------------------------------------------------
+    //---------------------------------------------------------------------------
+    
+    Library lib1(10);
     
     lib1.addBook(book1);
     lib1.addBook(book2);
@@ -21,7 +24,11 @@ int main(){
     std::cout << "Library 1 contains: " << std::endl;
     lib1.print();
 
-    // Item 12
+    //---------------------------------------------------------------------------
+    //---------------------------------------------------------------------------
+
+    std::cout << "\n\tTesting Copy Constructor:" << std::endl;
+
     Library lib2(lib1);
     std::cout << "Library 2 (copy of Library 1) contains: " << std::endl;
     lib2.print();
@@ -32,6 +39,27 @@ int main(){
     lib1.print();
     std::cout << "Library 2 contains: " << std::endl;
     lib2.print();
+
+    //---------------------------------------------------------------------------
+    //---------------------------------------------------------------------------
+
+    std::cout << "\n\tTesting transferBooksTo method. Item 12:" << std::endl;
+
+    lib1.transferBooksTo(lib2);
+    std::cout << "After transferring books from Library 1 to Library 2:" << std::endl;
+    std::cout << "Library 1 contains: " << std::endl;
+    lib1.print();
+    std::cout << "Library 2 contains: " << std::endl;
+    lib2.print();
+
+    std::cout << "\nTesting self-transfer scenario:" << std::endl;
+
+    lib2.transferBooksTo(lib2); 
+
+    //---------------------------------------------------------------------------
+    //---------------------------------------------------------------------------
+
+    std::cout << "\n\tTesting Copy Assignment Operator:" << std::endl;
 
     Library lib3(10);
     lib3.addBook(book5);
@@ -47,13 +75,18 @@ int main(){
     std::cout << "Library 3 after self-assignment: " << std::endl;
     lib3.print();
 
+    //---------------------------------------------------------------------------
+    //---------------------------------------------------------------------------
+
+    std::cout << "\n\tTesting Chained Assignment:" << std::endl;
+
     Library lib4(10);
     Library lib5(10);
 
     lib4.addBook(book6);
     lib5.addBook(book7);
 
-    lib3 = lib4 = lib5; // chained assignment test
+    lib3 = lib4 = lib5;
 
     std::cout << "After the chain lib3 = lib5 = lib4: " << std::endl;
     std::cout << "lib4:\n";

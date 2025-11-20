@@ -1,7 +1,7 @@
 #include "SchoolLibrary.hpp"
 
 SchoolLibrary::SchoolLibrary(std::string const& name, std::size_t cap)
-    : Library(cap), schoolName(name) {}
+    : schoolName(name) {}
 
 SchoolLibrary::SchoolLibrary(const SchoolLibrary& other)
     : Library(other), schoolName(other.schoolName) {

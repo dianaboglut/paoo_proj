@@ -37,6 +37,24 @@ Library& Library::operator=(const Library& other) {
     return *this;
 }
 
+void Library::transferBooksTo(Library& destination) {
+    std::cout << "Transferring assets" << std::endl;
+
+    if (this == &destination) {
+        std::cout << "Source and Destination are the same! Aborting transfer to prevent data loss." << std::endl;
+        return;
+    }
+
+    for (std::size_t i = 0; i < size; ++i) {
+        destination.addBook(books[i]);
+    }
+
+    size = 0;
+    capacity = 0;
+    delete[] books;
+
+    std::cout << "Transfer complete."<< std::endl;
+}
 
 void Library::addBook(const Book& book){
     if(size >= capacity){
