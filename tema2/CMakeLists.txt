@@ -21,6 +21,7 @@ set(SOURCES
     src/main.cpp
     src/Library.cpp
     src/Book.cpp
+    src/SchoolLibrary.cpp
 )
 
 # Executable

@@ -1,4 +1,6 @@
 #include "Library.hpp"
+#include "SchoolLibrary.hpp"
+#include "Book.hpp"
 #include <iostream>
 
 int main(){
@@ -88,6 +90,16 @@ int main(){
 
     std::cout << "My Library after restoration:" << std::endl;
     myLibrary.print();
+
+    SchoolLibrary schoolLib("Central High", 10);
+    schoolLib.addBook(book1);
+    schoolLib.addBook(book5);
+    schoolLib.print();
+
+    std::cout << "Creating 'schoolBackup' from 'schoolLib'..." << std::endl;
+
+    SchoolLibrary schoolBackup = schoolLib;
+    schoolBackup.print();
 
     //--------------------------------------
 

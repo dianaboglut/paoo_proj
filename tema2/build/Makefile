@@ -177,6 +177,30 @@ src/Library.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema2.dir/build.make CMakeFiles/tema2.dir/src/Library.cpp.s
 .PHONY : src/Library.cpp.s
 
+src/SchoolLibrary.o: src/SchoolLibrary.cpp.o
+.PHONY : src/SchoolLibrary.o
+
+# target to build an object file
+src/SchoolLibrary.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema2.dir/build.make CMakeFiles/tema2.dir/src/SchoolLibrary.cpp.o
+.PHONY : src/SchoolLibrary.cpp.o
+
+src/SchoolLibrary.i: src/SchoolLibrary.cpp.i
+.PHONY : src/SchoolLibrary.i
+
+# target to preprocess a source file
+src/SchoolLibrary.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema2.dir/build.make CMakeFiles/tema2.dir/src/SchoolLibrary.cpp.i
+.PHONY : src/SchoolLibrary.cpp.i
+
+src/SchoolLibrary.s: src/SchoolLibrary.cpp.s
+.PHONY : src/SchoolLibrary.s
+
+# target to generate assembly for a file
+src/SchoolLibrary.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema2.dir/build.make CMakeFiles/tema2.dir/src/SchoolLibrary.cpp.s
+.PHONY : src/SchoolLibrary.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... src/Library.o"
 	@echo "... src/Library.i"
 	@echo "... src/Library.s"
+	@echo "... src/SchoolLibrary.o"
+	@echo "... src/SchoolLibrary.i"
+	@echo "... src/SchoolLibrary.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

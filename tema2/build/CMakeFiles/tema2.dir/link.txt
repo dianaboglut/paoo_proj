@@ -1,1 +1,1 @@
-/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/tema2.dir/src/main.cpp.o CMakeFiles/tema2.dir/src/Library.cpp.o CMakeFiles/tema2.dir/src/Book.cpp.o -o tema2
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/tema2.dir/src/main.cpp.o CMakeFiles/tema2.dir/src/Library.cpp.o CMakeFiles/tema2.dir/src/Book.cpp.o CMakeFiles/tema2.dir/src/SchoolLibrary.cpp.o -o tema2

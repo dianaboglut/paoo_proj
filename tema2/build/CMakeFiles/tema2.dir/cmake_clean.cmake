@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tema2.dir/src/Book.cpp.o.d"
   "CMakeFiles/tema2.dir/src/Library.cpp.o"
   "CMakeFiles/tema2.dir/src/Library.cpp.o.d"
+  "CMakeFiles/tema2.dir/src/SchoolLibrary.cpp.o"
+  "CMakeFiles/tema2.dir/src/SchoolLibrary.cpp.o.d"
   "CMakeFiles/tema2.dir/src/main.cpp.o"
   "CMakeFiles/tema2.dir/src/main.cpp.o.d"
   "tema2"

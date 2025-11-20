@@ -1,3 +1,5 @@
+#ifndef LIBRARY_HPP
+#define LIBRARY_HPP
 #include "Book.hpp"
 
 class Library{
@@ -11,11 +13,13 @@ class Library{
         Library(Library&& other) noexcept;
         Library& operator=(const Library& other); // Copy assignment
         Library& operator=(Library&& other) noexcept; // Move assignment
-        ~Library();
+        virtual ~Library();
 
         void addBook(const Book& book);
         void removeBook(const std::string title);
         Book* findBook(const std::string title) const;
         int getBookCount() const;
-        void print() const;
+        virtual void print() const;
 };
+
+#endif

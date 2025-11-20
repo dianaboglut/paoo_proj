@@ -1,5 +1,6 @@
-CMakeFiles/tema2.dir/src/main.cpp.o: \
-  /Users/diana/Documents/Facultate/AN\ 4/PAOO/Lab/paooProj/tema2/src/main.cpp \
+CMakeFiles/tema2.dir/src/SchoolLibrary.cpp.o: \
+  /Users/diana/Documents/Facultate/AN\ 4/PAOO/Lab/paooProj/tema2/src/SchoolLibrary.cpp \
+  /Users/diana/Documents/Facultate/AN\ 4/PAOO/Lab/paooProj/tema2/src/SchoolLibrary.hpp \
   /Users/diana/Documents/Facultate/AN\ 4/PAOO/Lab/paooProj/tema2/src/Library.hpp \
   /Users/diana/Documents/Facultate/AN\ 4/PAOO/Lab/paooProj/tema2/src/Book.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -780,5 +781,4 @@ CMakeFiles/tema2.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/diana/Documents/Facultate/AN\ 4/PAOO/Lab/paooProj/tema2/src/SchoolLibrary.hpp
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
