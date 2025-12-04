@@ -1,0 +1,2 @@
+Salut din FileHandle RAII!
+Al doilea mesaj prin fh2.

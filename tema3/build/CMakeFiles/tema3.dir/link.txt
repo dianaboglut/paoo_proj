@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/tema3.dir/src/main.cpp.o CMakeFiles/tema3.dir/src/FileHandle.cpp.o CMakeFiles/tema3.dir/src/LoggerSync.cpp.o CMakeFiles/tema3.dir/src/LoggerAsync.cpp.o CMakeFiles/tema3.dir/src/Workers.cpp.o CMakeFiles/tema3.dir/src/SharedConfig.cpp.o -o tema3
